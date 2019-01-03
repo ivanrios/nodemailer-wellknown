@@ -153,6 +153,11 @@
         "secure": true
     },
 
+    "Office365": {
+        "host": "smtp.office365.com",
+        "port": 587,
+        "secure": false
+    },
     "Outlook365": {
       "host": "smtp.office365.com",
       "port": 587,
