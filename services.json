@@ -211,18 +211,24 @@
     },
     "SES-US-EAST-1": {
         "host": "email-smtp.us-east-1.amazonaws.com",
-        "port": 465,
-        "secure": true
+        "port":587,
+        "tls": {
+            "ciphers": "SSLv3"
+        }
     },
     "SES-US-WEST-2": {
         "host": "email-smtp.us-west-2.amazonaws.com",
-        "port": 465,
-        "secure": true
+        "port":587,
+        "tls": {
+            "ciphers": "SSLv3"
+        }
     },
     "SES-EU-WEST-1": {
         "host": "email-smtp.eu-west-1.amazonaws.com",
-        "port": 465,
-        "secure": true
+        "port":587,
+        "tls": {
+            "ciphers": "SSLv3"
+        }
     },
 
 
